@@ -1,0 +1,17 @@
+public class Player{
+
+    public int health;
+    public int speed;
+    public Armor armor;
+    public Weapon weapon;
+
+    public Player(){
+        
+        this.health = 100;
+        this.speed = 5;
+        this.armor = new Armor("Birthday Suit", 0);
+        this.weapon = new Weapon("Stick", 1);
+
+    }
+
+}

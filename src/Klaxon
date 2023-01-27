@@ -1,0 +1,17 @@
+public class Klaxon{
+
+    // Instance variables
+    public int health;
+    public double speed;
+
+    // Constructor
+    public Klaxon(int health, double speed){
+
+        this.health = health;
+        this.speed = speed;
+
+    }
+
+
+
+}
