@@ -1,11 +1,11 @@
 public class Player{
 
-    public int health;
-    public int speed;
-    public Armor armor;
-    public Weapon weapon;
+    private int health;
+    private int speed;
+    private Armor armor;
+    private Weapon weapon;
 
-    public Player(){
+    public Player() {
         
         this.health = 100;
         this.speed = 5;
@@ -14,4 +14,38 @@ public class Player{
 
     }
 
+    public void setHealth(final int theHealth) {
+        this.health = theHealth;
+
+    }
+
+    public void setSpeed(final int theSpeed) {
+        this.speed = theSpeed;
+
+    }
+
+    public void setAmor(final Amor theAmor) {
+        this.armor = theAmor;
+
+    }
+
+    public void setWeapon(final Weapon theWeapon) {
+        this.weapon = theWeapon;
+
+    }
+
+    public int getHealth() {
+        return this.health;
+    }
+    public int getSpeed() {
+        return this.speed;
+    }
+
+    public Amor getAmor() {
+        return this.armor;
+    }
+
+    public Weapon getWeapon() {
+        return this.weapon;
+    }
 }
